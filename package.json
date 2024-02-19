@@ -1,0 +1,11 @@
+{
+  "name": "bun-rinha-de-backend-q2",
+  "module": "src/main/server.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
