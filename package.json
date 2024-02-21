@@ -1,11 +1,16 @@
 {
   "name": "bun-rinha-de-backend-q2",
-  "module": "src/main/server.ts",
+  "module": "src/index.ts",
   "type": "module",
   "devDependencies": {
+    "@biomejs/biome": "1.5.3",
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "fast-glob": "^3.3.2",
+    "postgres": "^3.4.3"
   }
 }
